@@ -18,7 +18,7 @@ const Page = () => {
               icon={<SearchIcon color={theme.palette.accents_5} />}
               placeholder="Search..."
             />
-            <Button auto type="secondary" marginLeft={1}>
+            <Button href="/creae" auto type="secondary" marginLeft={1}>
               New Project
             </Button>
             <Button iconRight={<CreateTeamIcon />} marginLeft={1} px={0} width="48px" />
